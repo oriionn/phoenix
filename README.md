@@ -81,3 +81,14 @@ git clone https://github.com/oriionn/phoenix.git
 cd phoenix
 make build
 ```
+#### Arch Linux
+Installation
+```bash
+git clone https://github.com/oriionn/phoenix && cd phoenix
+makepkg -si --cleanbuild
+cd .. && rm -fr phoenix
+```
+Uninstall 
+```bash
+# pacman -R phoenix-git
+```
